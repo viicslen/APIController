@@ -7,12 +7,12 @@
     },
     "require": {
         "laravel/framework": "^7.0",
-        "optimus/architect": "~1.0"
+        "viicslen/architect": "^2.0"
     },
     "require-dev": {
-        "mockery/mockery": "0.9.*",
-        "orchestra/testbench": "~3.1",
-        "phpunit/phpunit": "~4.7",
+        "mockery/mockery": "^1.0",
+        "orchestra/testbench": "^3.1",
+        "phpunit/phpunit": "^4.7",
         "satooshi/php-coveralls": "dev-master@dev"
     },
     "minimum-stability": "stable",
