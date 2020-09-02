@@ -1,6 +1,6 @@
 <?php
 
-namespace Optimus\Bruno;
+namespace viicslen\ApiResources;
 
 use JsonSerializable;
 use InvalidArgumentException;
@@ -11,7 +11,7 @@ use Illuminate\Http\JsonResponse;
 use Optimus\Architect\Architect;
 use Illuminate\Http\Request;
 
-abstract class LaravelController extends Controller
+abstract class ApiController extends Controller
 {
     /**
      * Defaults
@@ -125,6 +125,7 @@ abstract class LaravelController extends Controller
 
     /**
      * Parse GET parameters into resource options
+     * @param null $request
      * @return array
      */
     protected function parseResourceOptions($request = null)

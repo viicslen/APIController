@@ -1,12 +1,12 @@
 {
-    "name": "optimus/bruno",
+    "name": "viicslen/api-resources",
     "autoload": {
         "psr-4": {
-            "Optimus\\Bruno\\": "src/"
+            "viicslen\\ApiResources\\": "src/"
         }
     },
     "require": {
-        "laravel/framework": "~5.4",
+        "laravel/framework": "^7.0",
         "optimus/architect": "~1.0"
     },
     "require-dev": {
