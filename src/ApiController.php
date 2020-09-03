@@ -8,7 +8,7 @@ use Illuminate\Contracts\Support\Arrayable;
 use Illuminate\Routing\Controller;
 use Illuminate\Routing\Router;
 use Illuminate\Http\JsonResponse;
-use Optimus\Architect\Architect;
+use viicslen\Architect\Architect;
 use Illuminate\Http\Request;
 
 abstract class ApiController extends Controller
